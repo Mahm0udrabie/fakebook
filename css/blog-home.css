@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    /* background-image: url(https://directlinedev.com/media/services/service/background/background_20.wide.jpeg); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(233, 235, 238);
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    overflow-x:hidden;  
+
+}
+.row
+{
+    color:black;
+}
+
+.lead a
+{
+    color: rgb(54, 88, 153);
+}
+.col-md-4
+{
+  margin-left: 60%;
+  position: fixed;
+}
+
+@media  screen and (max-width: 991px) {
+    .col-md-4 
+     {
+        position: relative;
+        margin: auto;
+     }
+}
+
+
+
+.well
+{
+    
+    color: white;
+    background-color: #3B5998;
+    outline:none;
+    border: 0px solid;
+    
+}
+
+
+.list-unstyled li > a
+{
+    color: white;
+}
+.list-unstyled li > a:link
+{
+    text-decoration: none;
+}
+.list-unstyled li > a:hover
+{
+    text-decoration: none;
+}
+
+.navbar-inverse {   
+    background-color: #3B5998;
+   
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li:hover {
+
+ border-radius: 2px;
+
+
+    background: rgba(0, 0, 0, .1);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+ .navbar-brand > li:hover {
+    
+    background: rgba(0, 0, 0, .1);
+    color: white;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+
+}
+.media
+{
+    margin-right:5%;
+    background-color: white;
+    padding:10px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+footer {
+    margin: 50px 0;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+
+    color: rgb(252, 247, 247);
+    background-color: rgba(3, 15, 43, 0.39);    
+}

@@ -1,0 +1,13 @@
+.pager li .active_link {
+
+background: rgb(147, 177, 241) !important;
+
+}
+
+
+.form-control.pwd {
+
+background: rgb(0, 0, 0) !important;
+width: 30%;
+
+}
